@@ -31,6 +31,15 @@ function updateCarNumbersList(input) {
             dataList.appendChild(option);
         }
     });
+
+    // Якщо випадаючий список має опції, змінюємо атрибут autofocus для управління його відображенням
+    if (dataList.children.length > 0) {
+        searchInput.setAttribute('autocomplete', 'off');
+        searchInput.setAttribute('autofocus', 'off');
+    } else {
+        searchInput.removeAttribute('autocomplete');
+        searchInput.removeAttribute('autofocus');
+    }
 }
 
 // Отримуємо введення користувача
