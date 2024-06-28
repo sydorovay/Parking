@@ -13,7 +13,7 @@ document.getElementById('searchInput').addEventListener('input', function() {
   const searchInput = document.getElementById('searchInput').value;
   const resultDiv = document.getElementById('result');
 
-  // Extract only digits from the input
+  // Видаляємо всі нецифрові символи з введення
   const carNumber = searchInput.replace(/\D/g, '');
 
   if (carNumber in cars) {
