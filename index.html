@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Car Parking System</title>
-  <link rel="stylesheet" href="./styles.css">
+    <title>Car Parking System</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Imling Parking </h1>
-    <input type="text" id="searchInput" placeholder="Enter car number" />
-    <div id="result"></div>
-  <p>Wimmer CSU Senioren BUS Grammelsebrger Busreisen <br>Komt um 16:30 </p>
-   </div>
- <script src="./script.js"></script>
+    <div class="container">
+        <h1>Imling Parking</h1>
+        <input type="text" id="searchInput" list="carNumbers" placeholder="Enter car number" />
+        <datalist id="carNumbers">
+            <!-- Опції для випадаючого списку будуть додані за допомогою JavaScript -->
+        </datalist>
+        <div id="result"></div>
+        <p>Wimmer CSU Senioren BUS Grammelsebrger Busreisen <br>Komt um 16:30 </p>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
-
