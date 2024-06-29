@@ -7,6 +7,11 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f5f5f5;
+  background-image: url('https: //lh3.googleusercontent.com/p/AF1QipO83SqSsi8uU2v8tGzJp9v-_1xEmhDJvO8XLcl9=s1360-w1360-h1020');
+}
+
+body.found {
+  background-color: green;
 }
 
 .container {
