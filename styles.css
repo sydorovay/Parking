@@ -36,9 +36,11 @@ input[type="text"] {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  z-index: 1000;
 }
 
 #result {
+  position: sticky;
   padding: 10px;
   border-radius: 4px;
   text-align: center;
