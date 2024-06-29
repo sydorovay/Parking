@@ -7,24 +7,30 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f5f5f5;
-  background-image: url('https: //lh3.googleusercontent.com/p/AF1QipO83SqSsi8uU2v8tGzJp9v-_1xEmhDJvO8XLcl9=s1360-w1360-h1020');
+  background-image: url('./images/Imling\ festival.png');
+    /* Додано фонове зображення */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Зображення не повторюється */
 }
 
 body.found {
-  background-color: green;
+  background-color: rgb(4, 211, 4);
 }
 
 .container {
   width: 100%;
   max-width: 500px;
-  padding: 20px;
-  background: #fff;
+  padding: 30px;
+  background: #dce5fc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: start;
 }
 
 input[type="text"] {
-  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -62,4 +68,8 @@ input[type="text"] {
   #result {
     padding: 8px;
   }
+}
+
+h1 {
+color: brown;
 }
